@@ -2,7 +2,7 @@
   <h1><code>tinker</code></h1>
 
   <p>
-    An application to manage your <a href="https://tinkerbell.org/">Tinkerbell</a>
+    An application to manage <a href="https://tinkerbell.org/">Tinkerbell</a>
     resources with ease!
   </p>
 
@@ -12,7 +12,7 @@
 
 - A Kubernetes cluster running version 1.26 or later
 - Tinkerbell stack:
-    - Follow the [tinkerbell install](https://tinkerbell.org/docs/setup/install/) document to setup a Kubernetes based stack.
+  - Follow the [tinkerbell install](https://tinkerbell.org/docs/setup/install/) document to setup a Kubernetes based stack.
 
 ## Resources
 
