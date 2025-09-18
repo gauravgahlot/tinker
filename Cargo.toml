@@ -1,0 +1,16 @@
+[workspace]
+resolver = "2"
+members = [
+  "core",
+  "tinker-tui",
+]
+
+[workspace.package]
+version = "0.0.1"
+edition = "2021"
+license = "Apache-2.0"
+homepage = "https://github.com/gauravgahlot/tinker"
+repository = "https://github.com/gauravgahlot/tinker"
+rust-version = "1.89"
+authors = ["Gaurav Gahlot<me@gauravgahlot.in>"]
+

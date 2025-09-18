@@ -1,0 +1,16 @@
+# Cargo build directory
+/target/
+
+# Rust compiler generated files
+*.rs.bk
+
+# Compiled libraries
+*.rlib
+*.dylib
+*.so
+*.a
+*.lib
+
+# Linux specific
+*.swp
+
