@@ -1,9 +1,0 @@
-#!/bin/bash
-
-set -o errexit
-set -o nounset
-set -o pipefail
-
-go vet ./src/client/...
-go vet ./src/pkg/...
-go vet ./src/server/...
