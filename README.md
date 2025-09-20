@@ -8,6 +8,8 @@
 
 </div>
 
+![splash screen](./docs/images/splash.png "tinker")
+
 ## Prerequisites
 
 - A Kubernetes cluster running version 1.26 or later

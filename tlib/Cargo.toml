@@ -1,0 +1,11 @@
+[package]
+name = "tlib"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+kube = { version = "2.0.1", features = ["derive", "runtime"] }
+k8s-openapi = { version = "0.26.0", features = ["latest", "schemars"] }
+schemars = { version = "1" }
+anyhow = "1.0.100"
+
