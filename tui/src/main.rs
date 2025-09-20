@@ -1,4 +1,5 @@
 mod app;
+mod ui;
 
 use anyhow::Result;
 use ratatui;
