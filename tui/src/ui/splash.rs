@@ -3,16 +3,22 @@ use ratatui::style::{Color, Style};
 use ratatui::widgets::{Paragraph, Widget};
 use ratatui::Frame;
 
-#[derive(Default)]
-pub struct SplashScreen {}
+#[derive(Clone, Copy)]
+pub struct Splash;
 
-impl SplashScreen {
-    pub fn draw(&self, frame: &mut Frame) {
+impl Splash {
+    pub fn new() -> Self {
+        Self
+    }
+}
+
+impl crate::app::Drawable for Splash {
+    fn draw(&self, frame: &mut Frame) {
         frame.render_widget(self, frame.area());
     }
 }
 
-impl Widget for &SplashScreen {
+impl Widget for &Splash {
     fn render(self, area: ratatui::prelude::Rect, buf: &mut ratatui::prelude::Buffer)
     where
         Self: Sized,
